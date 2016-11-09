@@ -22,5 +22,4 @@ void main()
     printf("double:%d bytes\n",sizeof(double));
     /* The size of long double is 8, or 10, or 12 */
     printf("long double:%d bytes\n",sizeof(long double));
-    getchar();
 }

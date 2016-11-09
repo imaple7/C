@@ -1,17 +1,21 @@
+//Sum of sequence
 #include <stdio.h>
 main()
 {
 	int i,j,n;
 	long sum=0,temp=0;
 
+	//Get the maximum number of the sequence
 	printf("Please input a number to n:\n");
 	scanf("%d",&n);
+	//Check the input should larger than 1
 	if(n<1)
 	{
 		printf("The n must no less than 1!\n");
 		return;
 	}
 
+	//Use for loop to calculate the sum of the sequence
 	for(i=1;i<=n;i++)
 	{
 		temp=0;
@@ -20,6 +24,4 @@ main()
 		sum+=temp;
 	}
 	printf("The sum of the sequence(%d) is %d\n",n,sum);
-	getchar();
-	getchar();
-}
+}
