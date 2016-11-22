@@ -1,4 +1,4 @@
-/* 用二维数组实现矩阵的转置 */
+/* Matrix transpose by 2D array*/
 #include <stdio.h>
 #define ROW 3
 #define COL 4
